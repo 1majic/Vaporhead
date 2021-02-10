@@ -1,7 +1,7 @@
 from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 
-token = "74ceaa4450622c8a660be23cd227fc7c572e9553804fb982031821652c02759b896492adfaa3410ff974d"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 
 session_api = vk_session.get_api()
