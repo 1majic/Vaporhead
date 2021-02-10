@@ -2,7 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from antigate import AntiGate
 import vk_api, urllib, requests
 
-token = "6d032e2723c7d5096caf23690d50211760c9a4e9a3f59644307d120512e88a723eeb5f8afb82beb92f4cf"
+token = ""
 vk_session = vk_api.VkApi(token=token)
 
 session_api = vk_session.get_api()
