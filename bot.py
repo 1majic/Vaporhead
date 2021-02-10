@@ -9,9 +9,9 @@ def captcha_handler(captcha):
     # Пробуем снова отправить запрос с капчей
     return captcha.try_again(key)
 
-login, password = '89964020490', 'Wikutorrent21'
+login, password = ''
 vk_session = vk_api.VkApi(
-    login, password, token='c03ed8423b7acb42ea464d97f7f07991b634e430efc029a7ca3562b98e867ab787203721614d3dc31f400',
+    login, password, token='',
     captcha_handler=captcha_handler  # функция для обработки капчи
 )
 
