@@ -9,7 +9,7 @@ def captcha_handler(captcha):
     # Пробуем снова отправить запрос с капчей
     return captcha.try_again(key)
 
-login, password = '89371547521', 'A17051AAS'
+login, password = ''
 vk_session = vk_api.VkApi(
     login, password,
     captcha_handler=captcha_handler  # функция для обработки капчи
