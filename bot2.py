@@ -8,7 +8,7 @@ def captcha_handler(captcha):
     return captcha.try_again(key)
 
 # Авторизация
-login, password = '995555193282', 'wikiummg2krg'
+login, password = ''
 vk_session = vk_api.VkApi(
     login, password,
     captcha_handler=captcha_handler  # функция для обработки капчи
